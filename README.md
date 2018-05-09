@@ -1,10 +1,10 @@
 # graphql-node
 graphql with node express
 
-npn install
-node server.js
-open localhost:4000/graphql
-pass this object in query on browser
+#npn install
+#node server.js
+#open localhost:4000/graphql
+#pass this object in query on browser
 'query getSingleCourse($courseID: Int!) {
     course(id: $courseID) {
         title
@@ -15,7 +15,7 @@ pass this object in query on browser
     }
 }'
 
-pass course id in query variable
+#pass course id in query variable
 {
     "courseID":1
 }
